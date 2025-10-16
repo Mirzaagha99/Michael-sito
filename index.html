@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael - Sito Personale</title>
+    style.css
+</head>
+<body>
+    <!-- Navigazione -->
+    <nav>
+        <ul>
+            <li>#homeHome</a></li>
+            <li>#aboutChi sono</a></li>
+            <li><a hreflioPortfolio</a></li>
+            <li><a href="#ntatti</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sezione Home -->
+    <section id="home">
+        <h1>Benvenuto nel mio sito!</h1>
+        <p>Sono Michael, sviluppatore web appassionato di tecnologia e design.</p>
+    </section>
+
+    <!-- Sezione Chi sono -->
+    <section id="about">
+        <h2>Chi sono</h2>
+        <p>Mi chiamo Michael e mi occupo di sviluppo web. Creo esperienze digitali moderne e funzionali.</p>
+    </section>
+
+    <!-- Sezione Portfolio -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div id="project-filters">
+            <button onclick="filterProjects('all')">Tutti</button>
+            <button onclick="filterProjects('web')">Web</button>
+            <button onclick="filterProjects('design')">Design</button>
+        </div>
+        <div id="projects-container">
+            <!-- Progetti dinamici -->
+        </div>
+    </section>
+
+    <!-- Sezione Contatti -->
+    <section id="contact">
+        <h2>Contatti</h2>
+        <form id="contact-form" onsubmit="return validateForm()">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Messaggio:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+
+    <script
