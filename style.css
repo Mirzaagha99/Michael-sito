@@ -1,150 +1,45 @@
-
-:root {
-    --bg-color: #f4f4f4;
-    --text-color: #333;
-    --primary-color: #0077cc;
-    --card-bg: #fff;
-    --nav-bg: #333;
-    --nav-text: #fff;
-    --button-bg: #0077cc;
-    --button-text: #fff;
-    --input-bg: #fff;
-    --input-border: #ccc;
-}
-
-body.dark-mode {
-    --bg-color: #121212;
-    --text-color: #e0e0e0;
-    --card-bg: #1e1e1e;
-    --nav-bg: #222;
-    --nav-text: #eee;
-    --button-bg: #444;
-    --button-text: #fff;
-    --input-bg: #1e1e1e;
-    --input-border: #555;
-}
-
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: background-color 0.3s, color 0.3s;
+    background-color: #f4f4f4;
 }
 
-nav {
-    background-color: var(--nav-bg);
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5em;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li a {
-    color: var(--nav-text);
+nav a {
+    color: #fff;
+    margin: 0 1rem;
     text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s;
 }
 
-nav ul li a:hover {
-    color: var(--primary-color);
+nav a:hover {
+    text-decoration: underline;
 }
 
-#dark-toggle {
-    background-color: var(--button-bg);
-    color: var(--button-text);
-    border: none;
-    padding: 0.5em 1em;
-    border-radius: 4px;
-    cursor: pointer;
+main {
+    padding: 1rem;
 }
 
-section {
-    padding: 3em 1em;
-    max-width: 1000px;
-    margin: auto;
+article {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: var(--text-color);
+footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-}
-
-#project-filters {
-    text-align: center;
-    margin-bottom: 1em;
-}
-
-#project-filters button {
-    margin: 0.3em;
-    padding: 0.5em 1em;
-    background-color: var(--button-bg);
-    color: var(--button-text);
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#project-filters button:hover {
-    background-color: #005fa3;
-}
-
-#projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1em;
-}
-
-.project-card {
-    background-color: var(--card-bg);
-    padding: 1em;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    max-width: 500px;
-    margin: auto;
-}
-
-input, textarea {
-    padding: 0.7em;
-    background-color: var(--input-bg);
-    border: 1px solid var(--input-border);
-    border-radius: 4px;
-    font-size: 1em;
-    color: var(--text-color);
-}
-
-button[type="submit"] {
-    background-color: var(--button-bg);
-    color: var(--button-text);
-    border: none;
-    padding: 0.8em 1.2em;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button[type="submit"]:hover {
-    background-color: #005fa3;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
