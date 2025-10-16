@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog and Digital Cameras: A Complete Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Analog and Digital Cameras: A Complete Guide</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Introduction</h2>
+            <p>The first major division between surveillance cameras is based on the image transmission technology: analog or digital. Understanding this difference is essential to be able to make an informed choice that is appropriate for your needs.</p>
+
+            <h2>Definitions and Characteristics</h2>
+            <p><b>Analog Cameras</b>: Analog cameras transmit video signals through coaxial cables. These cameras convert images into electrical signals that are sent to a recording device. The resolution of analog cameras is generally lower compared to digital cameras.<br>
+                <b>Digital Cameras</b>: Digital cameras, also known as IP (Internet Protocol) cameras, use digital technology to capture and transmit images. These cameras convert images into digital data that can be transmitted over an Internet or local network. They offer higher video resolution and advanced features such as remote access and video analytics.
+                </p>
+            <img src="images/telecamera_analogica.jpg" alt="Telecamera Analogica" style="width:100%;max-width:600px;">
+            
+            <figcaption>
+                <p>Anlapus camera, taken from their official website</p>  
+            </figcaption>
+            
+            
+            <h2>Advantages and Disadvantages</h2>
+            <h3>Analog Cameras:</h3>
+            <ul>
+                <li><b>Advantages:</b>
+                    <ul>
+                        <li><b>Lower Cost:</b> Analog cameras are generally more affordable than digital cameras, making them a cost-effective solution for those with budget constraints. This makes them ideal for small businesses or residential properties where extensive surveillance is needed without a significant financial investment.</li>
+                        <li><b>Ease of Installation:</b> These cameras are relatively simple to install and configure, often requiring less technical expertise. This can save time and reduce the need for professional installation services.</li>
+                        <li><b>Compatibility with Existing Systems:</b> Analog cameras can easily integrate with existing surveillance systems, especially those that already use coaxial cabling. This compatibility can reduce the need for extensive upgrades or replacements.</li>
+                    </ul>
+                </li>
+                <li><b>Disadvantages:</b>
+                    <ul>
+                        <li><b>Lower Resolution:</b> Analog cameras typically offer lower resolution compared to digital cameras. This can result in less detailed images, which may be insufficient for identifying individuals or small details in the footage.</li>
+                        <li><b>Limitations in Image Quality:</b> The image quality of analog cameras can be affected by signal degradation over long distances and interference from other electronic devices. This can lead to blurry or distorted images.</li>
+                        <li><b>Less Flexibility in Advanced Features:</b> Analog cameras lack many of the advanced features found in digital cameras, such as remote access, video analytics, and intelligent motion detection. This can limit their effectiveness in more complex surveillance scenarios.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Digital Cameras:</h3>
+            <ul>
+                <li><b>Advantages:</b>
+                    <ul>
+                        <li>High Resolution and Image Quality: Digital cameras provide superior image quality with higher resolution, often in HD or even 4K. This allows for clearer and more detailed footage, which is crucial for identifying faces, license plates, and other important details.</li>
+                        <li>Remote Access: Digital cameras can be accessed remotely via Internet-connected devices such as smartphones, tablets, and computers. This enables real-time monitoring and management of the surveillance system from anywhere in the world.</li>
+                        <li>Advanced Features: Many digital cameras come with advanced features like facial recognition, motion detection, and automatic alerts. These features enhance the overall security system by providing more accurate and timely information.</li>
+                    </ul>
+                </li>
+                <li><b>Disadvantages:</b>
+                    <ul>
+                        <li>Higher Cost: Digital cameras are generally more expensive than their analog counterparts. The higher initial investment can be a barrier for some users, especially those with limited budgets.</li>
+                        <li>Require a Good Internet Connection: To fully utilize the capabilities of digital cameras, a reliable and high-speed Internet connection is necessary. Poor connectivity can result in lag, interruptions, or loss of footage.</li>
+                        <li>More Complex Installation and Configuration: Setting up digital cameras can be more complex, often requiring technical expertise and professional installation. This can increase the overall cost and time needed to deploy the system.</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+    </main>
+    <footer>
+        <p>Copyright © 2025 Il Mio Blog</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
